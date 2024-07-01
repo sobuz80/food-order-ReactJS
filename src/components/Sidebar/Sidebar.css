@@ -1,0 +1,90 @@
+.all_margin {
+  margin-bottom: 0px;
+}
+.delivery_Address {
+  margin-bottom: 0px !important;
+  text-transform: capitalize;
+  font-size: 11px;
+}
+.del_address {
+  font-size: 14px;
+  margin-bottom: 0px !important;
+  font-weight: 700;
+}
+.order_address {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.order_time {
+  font-size: 12px;
+}
+.order_item_img {
+  height: 60px;
+  width: 60px;
+  margin-right: 10px;
+  border-radius: 7px;
+}
+.order_item_div {
+  border-radius: 7px;
+  margin-bottom: 10px;
+  display: flex;
+  transition: all linear 0.3s;
+}
+.order_item_div:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.order_details {
+  display: flex;
+  justify-content: space-between !important;
+}
+.order_name {
+  padding-left: 10px;
+  text-transform: capitalize;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.order_price {
+  font-size: 14px;
+  font-weight: 800;
+}
+.increase_list {
+  padding-left: 10px;
+}
+.select_item:focus-visible {
+  outline: 0;
+}
+select.select_item.form-select {
+  width: 42px;
+  height: 25px;
+  border: 1px solid #b9b9bb;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.cross_icon {
+  margin-top: -4px;
+}
+.total_price {
+  border-top: 1px solid #cccccc;
+}
+.coupon_text {
+  font-size: 14px;
+  text-transform: capitalize;
+}
+.coupon_btn {
+  background-color: aqua;
+  border: none;
+  text-transform: capitalize;
+  font-size: 14px;
+  
+}
+.coupon_btn:focus-visible {
+  outline: 0;
+}
+.coupon_bg {
+  background-color: #b9b9bb;
+  
+}
+.add_coupon_text {
+  padding-left: 5px;
+}

@@ -1,0 +1,40 @@
+.vertical-nav {
+    height: 100vh;
+    position: fixed;
+    width: 80px;
+    background-color: #f4f3f3c2;
+}
+.vertical-nav .nav-link {
+    color: #0E0E0E;
+    padding: 20px;
+    text-align: center;
+}
+.vertical-nav .nav-link:hover {
+    color:#ff3c00dd;
+    border: none;
+    border-right: 3px solid #ff3c00dd;
+}
+.content {
+    margin-left: 100px; /* Adjust based on vertical nav width */
+}
+.category-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.category-item {
+    text-align: center;
+}
+.category-item i {
+    font-size: 24px;
+    display: block;
+}
+.rounded-corners {
+    border-radius: 15px;
+}
+.no-border {
+    border: none;
+}
+.checkout-card .btn-light {
+    border-radius: 50%;
+}

@@ -1,0 +1,63 @@
+.category-item {
+    cursor: pointer;
+    transition: transform 0.3s, color 0.3s;
+  }
+  
+  .category-item:hover {
+    transform: scale(1.1);
+    color: #007bff; /* Bootstrap primary color */
+  }
+  
+  .category-item:hover i,
+  .category-item:hover p {
+    color: #007bff; /* Bootstrap primary color */
+  }
+  
+  /* Remove all borders from the tab except the bottom border when active */
+  .nav-tabs .nav-link {
+    border: none;
+    color:#0E0E0E;
+    background-color: #FFFFFF;
+    border-bottom: 3px solid transparent;
+    margin-bottom: 5px;
+  }
+  .nav-tabs .nav-link i {
+   
+    color:#ff3c00dd;
+    
+  }
+  
+  .nav-tabs .nav-link.active {
+    border: none;
+    border-bottom: 3px solid #ff3c00dd; /* Bootstrap primary color or any color you prefer */
+  }
+  
+  /* Ensure the tabs are displayed correctly with bottom border only */
+  .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border-color: transparent !important;
+  }
+  
+  /* Optional: Customize hover state */
+  .nav-tabs .nav-link:hover {
+    border: none;
+    border-bottom: 3px solid #ff3c00dd; /* Bootstrap primary color or any color you prefer */
+  }
+
+  .card-body {
+    padding: 1rem; /* Adjust padding as needed */
+  }
+  
+  .card-title {
+    margin-bottom: 0.5rem; /* Optional: Adjust margin as needed */
+  }
+  
+  .card-text {
+    margin-bottom: 1rem; /* Optional: Adjust margin as needed */
+  }
+  
+  .card-price {
+    float: right; /* Align price to the right */
+  }
+  
+  
+  
